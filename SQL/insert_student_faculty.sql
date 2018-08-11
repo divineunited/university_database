@@ -1,0 +1,15 @@
+insert into _student_faculty (studentID, facultyID) values (1, 3);
+insert into _student_faculty (studentID, facultyID) values (2, 3);
+insert into _student_faculty (studentID, facultyID) values (3, 2);
+insert into _student_faculty (studentID, facultyID) values (4, 3);
+insert into _student_faculty (studentID, facultyID) values (5, 3);
+insert into _student_faculty (studentID, facultyID) values (6, 2);
+insert into _student_faculty (studentID, facultyID) values (7, 3);
+insert into _student_faculty (studentID, facultyID) values (8, 3);
+insert into _student_faculty (studentID, facultyID) values (9, 1);
+insert into _student_faculty (studentID, facultyID) values (10, 2);
+insert into _student_faculty (studentID, facultyID) values (11, 1);
+insert into _student_faculty (studentID, facultyID) values (12, 1);
+insert into _student_faculty (studentID, facultyID) values (13, 1);
+insert into _student_faculty (studentID, facultyID) values (14, 1);
+insert into _student_faculty (studentID, facultyID) values (15, 2);

@@ -1,0 +1,50 @@
+insert into _major_course (majorID, courseID) values (6, 5);
+insert into _major_course (majorID, courseID) values (2, 7);
+insert into _major_course (majorID, courseID) values (4, 5);
+insert into _major_course (majorID, courseID) values (4, 15);
+insert into _major_course (majorID, courseID) values (1, 9);
+insert into _major_course (majorID, courseID) values (7, 5);
+insert into _major_course (majorID, courseID) values (1, 7);
+insert into _major_course (majorID, courseID) values (6, 16);
+insert into _major_course (majorID, courseID) values (5, 15);
+insert into _major_course (majorID, courseID) values (1, 11);
+insert into _major_course (majorID, courseID) values (1, 13);
+insert into _major_course (majorID, courseID) values (4, 12);
+insert into _major_course (majorID, courseID) values (2, 8);
+insert into _major_course (majorID, courseID) values (1, 7);
+insert into _major_course (majorID, courseID) values (7, 1);
+insert into _major_course (majorID, courseID) values (6, 10);
+insert into _major_course (majorID, courseID) values (6, 5);
+insert into _major_course (majorID, courseID) values (7, 4);
+insert into _major_course (majorID, courseID) values (1, 15);
+insert into _major_course (majorID, courseID) values (4, 19);
+insert into _major_course (majorID, courseID) values (2, 12);
+insert into _major_course (majorID, courseID) values (6, 9);
+insert into _major_course (majorID, courseID) values (4, 12);
+insert into _major_course (majorID, courseID) values (6, 13);
+insert into _major_course (majorID, courseID) values (1, 18);
+insert into _major_course (majorID, courseID) values (4, 18);
+insert into _major_course (majorID, courseID) values (6, 8);
+insert into _major_course (majorID, courseID) values (3, 12);
+insert into _major_course (majorID, courseID) values (3, 5);
+insert into _major_course (majorID, courseID) values (4, 7);
+insert into _major_course (majorID, courseID) values (1, 2);
+insert into _major_course (majorID, courseID) values (5, 5);
+insert into _major_course (majorID, courseID) values (5, 20);
+insert into _major_course (majorID, courseID) values (6, 15);
+insert into _major_course (majorID, courseID) values (1, 17);
+insert into _major_course (majorID, courseID) values (2, 9);
+insert into _major_course (majorID, courseID) values (2, 14);
+insert into _major_course (majorID, courseID) values (5, 3);
+insert into _major_course (majorID, courseID) values (7, 20);
+insert into _major_course (majorID, courseID) values (6, 9);
+insert into _major_course (majorID, courseID) values (1, 19);
+insert into _major_course (majorID, courseID) values (3, 13);
+insert into _major_course (majorID, courseID) values (5, 5);
+insert into _major_course (majorID, courseID) values (2, 10);
+insert into _major_course (majorID, courseID) values (3, 20);
+
+/* THIS WILL REMOVE DUPLICATE ENTRIES */
+
+ALTER IGNORE TABLE _major_course
+ADD UNIQUE INDEX idx_name (majorID, courseID);
