@@ -1,3 +1,0 @@
-Custom built MySQL University Record System Database and Basic PHP with advanced queries against the database populated with mock data.
-Working URL:
-http://cgi.soic.indiana.edu/~ddvu/final/home.php
