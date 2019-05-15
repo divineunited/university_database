@@ -1,1 +1,2 @@
 PHP/* linguist-vendored
+*.sql linguist-detectable=true
